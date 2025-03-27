@@ -1,0 +1,67 @@
+Package: rcpr
+Type: Package
+Title: Calico Pathway Resources
+Version: 0.0.1
+Authors@R: c(
+    person(
+      given = "Sean",
+      family = "Hackett",
+      email = "seanmchackett@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-9553-4341")
+      ),
+    person(
+      given = "Jeremy",
+      family = "Willsey", 
+      email = "jeremy@calicolabs.com",
+      role = "aut",
+      comment = c(ORCID = "0000-0002-9922-3612")
+      ),
+    person(
+      given = "Calico Life Sciences LLC",
+      role = c("cph", "fnd")
+      )
+    )
+Maintainer: Sean Hackett <sean@calicolabs.com>
+Description: R functions supporting Calico Pathway Resources (CPR).
+Depends: R (>= 3.2.3)
+Encoding: UTF-8
+LazyData: true
+biocViews:
+Imports:
+    arrow,
+    checkmate,
+    cli,
+    debugr,
+    dplyr,
+    DT,
+    ggplot2,
+    glue,
+    purrr,
+    readr,
+    rlang,
+    romic (>= 1.0.1),
+    shiny,
+    stringr,
+    tibble,
+    tidyr,
+    tidyselect
+Suggests:
+    googleCloudStorageR,
+    ggraph,
+    ggtext,
+    gridExtra,
+    httr,
+    igraph,
+    kableExtra,
+    knitr,
+    qvalue,
+    reticulate,
+    rvest,
+    org.Sc.sgd.db,
+    testthat (>= 3.0.0),
+    usethis,
+    vroom,
+    zFPKM
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3

@@ -1,0 +1,91 @@
+url: https://jubilant-adventure-4k6g1zo.pages.github.io/
+reference:
+- title: Using CPR Python Functionality from R
+  desc: These functions include Shiny modules and other pretty plotting functions
+    which are used for visualizing CPR's network information either statically or
+    dynamically.
+- subtitle: Binding a Pathway
+- contents:
+  - interactive_initialization_wrapper
+  - interactive_initialization
+- subtitle: Shiny Module - Basic Info
+- contents:
+  - shiny_basicInfo_test
+  - basicInfoInput
+  - basicInfoServer
+- subtitle: Shiny Module - Select Entity
+- contents:
+  - shiny_selectEntity_test
+  - selectEntityInput
+  - selectEntityServer
+- subtitle: Shiny Module - Neighborhoods
+- contents:
+  - shiny_neighborhood_test
+  - neighborhoodInput
+  - neighborhoodServer
+- subtitle: Shiny Module - Shortest Paths
+- contents:
+  - shiny_shortestPaths_test
+  - shortestPathsInput
+  - shortestPathsServer
+- subtitle: Neighborhoods
+  desc: Creating and plotting the molecular neighborhood of a focal species
+- contents:
+  - create_neighborhood_table
+  - plot_one_neighborhood
+  - plot_neighborhoods
+- subtitle: Shortest Paths
+  desc: Find and plot the shortest netwiork paths between two species
+- contents:
+  - summarize_shortest_paths
+  - plot_shortest_path_network
+- subtitle: Open Targets
+  desc: Functions for pulling data from the Open Targets graphQL API
+- contents:
+  - query_open_targets_targets
+  - query_open_targets_indications
+  - shiny_opentargets_test
+  - summarize_open_targets_targets
+  - summarize_diseases
+  - summarize_indication
+- title: R-Based Functionality Supporting CPR Pathway Transformations
+  desc: These functions are used to pull data and metadata into the CPR framework.
+    Many of these functions are accessed through the rpy2 module of the CPR Python
+    package or through its CLI. With time hopefully some or all of these R calls from
+    Python can be replaced with pure Python.
+- subtitle: Gene Metadata
+  desc: Many of the functions in CPR depend on genic metadata which is currently pulled
+    from specialized species-level Bioconductor packages.
+- contents:
+  - bioconductor_org_function
+  - bioconductor_org_library
+  - bioconductor_org_package_prefix
+- subtitle: Netcontextr
+  desc: Functions for contextualizing networks based on gene expression, protein localization
+    or other functional information.
+- contents:
+  - createStringGraph
+  - load_and_clean_hpa_data
+  - load_and_clean_gtex_data
+  - compartmentalize_string
+  - annotate_genes
+  - trim_network_by_edge_weight
+  - trim_network_by_gene_attribute
+  - trim_network_by_nodes
+  - trim_reactions_by_gene_attribute
+  - gene_expression_by_tissue
+  - detect_unexpressed
+  - tall_data_detect_unexpressed
+  - discretize_expression
+  - extract_gene_annotations
+- title: Data
+- contents:
+  - efo_diseases
+  - example_string_graph
+  - example_gtex_data
+  - example_protein_subcellular_localizations
+- title: Dev Area
+- contents:
+  - rcpr
+  - create_mock_reactions
+
