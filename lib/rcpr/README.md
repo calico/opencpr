@@ -1,6 +1,6 @@
 # Calico Pathway Resources (CPR) in R!
 
-An R package which is part of the [Calico Pathway Resources (CPR)](https://github.com/calico/open-cpr) project.
+An R package which is part of the [Calico Pathway Resources (CPR)](https://github.com/calico/opencpr) project.
 
 ## Repo Contents
 
@@ -17,13 +17,13 @@ This package can be installed in several ways:
     2.  Install `rcpr` in an interactive R session using remotes (or devtools) from GitHub:
 
 ```r
-remotes::install_github("calicolabs/open-cpr",  subdir = "lib/rcpr)
+remotes::install_github("calicolabs/opencpr",  subdir = "lib/rcpr)
 ```
 
 2.  Clone and build locally:
 
 ```bash
 !bash
-git clone git@github.com:calico/rcpr.git
-R CMD build rcpr
+git clone git@github.com:calico/opencpr.git
+R CMD build lib/rcpr
 ```
