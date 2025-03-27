@@ -43,5 +43,5 @@ We'll include examples here of how CPR is used in the wild to address biological
 
 ## Documentation
 
-- For bug and issue tracking we use [Github Issues](https://github.com/calico/Open-CPR/issues).
-- CPR's core algorithms and data structures are documented on the [CPR Wiki](https://github.com/calico/Open-CPR/wiki).
+- For bug and issue tracking we use [Github Issues](https://github.com/calico/OpenCPR/issues).
+- CPR's core algorithms and data structures are documented on the [CPR Wiki](https://github.com/calico/OpenCPR/wiki).
